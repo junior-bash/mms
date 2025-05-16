@@ -280,11 +280,11 @@ const StadiumHomepage = () => {
       {/* Stadium Cards */}
       <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 w-full max-w-6xl px-4 sm:px-0">
         {[
-          { name: "Mpumalanga Stadium", image: "src/assets/mpumalanga.jpg" },
-          { name: "Princess Magogo", image: "src/assets/princess_magogo.jpg" },
-          { name: "Chatsworth Stadium", image: "src/assets/Chatsworth.jpg" },
-          { name: "King Zwelethini", image: "src/assets/king_zwelithini.jpg" },
-          { name: "Sugar Ray Stadium", image: "src/assets/kings.jpg" },
+  { name: "Mpumalanga Stadium", image: "/images/mpumalanga.jpg" },
+  { name: "Princess Magogo", image: "/images/princess_magogo.jpg" },
+  { name: "Chatsworth Stadium", image: "/images/Chatsworth.jpg" },
+  { name: "King Zwelethini", image: "/images/king_zwelithini.jpg" },
+  { name: "Sugar Ray Stadium", image: "/images/kings.jpg" }
         ].map((stadium, index) => (
           <div
             key={index}
