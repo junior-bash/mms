@@ -1,0 +1,81 @@
+/* Calendar container */
+.react-calendar {
+    background-color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Navigation bar (month/year) */
+  .react-calendar__navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #1f2937; /* gray-800 */
+  }
+  
+  .react-calendar__navigation button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    color: #1f2937; /* dark gray */
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .react-calendar__navigation button:enabled:hover {
+    background-color: #f97316; /* orange-500 */
+    color: white;
+    border-radius: 9999px; /* make them fully rounded */
+  }
+  
+  
+  /* Weekdays */
+  .react-calendar__month-view__weekdays {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Weekday tiles */
+  .react-calendar__tile {
+    background: transparent;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.875rem;
+  }
+  
+  .react-calendar__tile:enabled:hover {
+    background-color: #f97316; /* Tailwind orange-500 */
+    color: white;
+  }
+  
+  /* Active (today) tile */
+  .react-calendar__tile--now {
+    background-color: #facc15; /* Tailwind yellow-400 */
+    color: #333;
+    border-radius: 0.5rem;
+  }
+  
+  /* Active (clicked) tile */
+  .react-calendar__tile--active {
+    background-color: #ea580c; /* Tailwind orange-600 */
+    color: white;
+    border-radius: 0.5rem;
+  }
+  
+  /* Remove red weekends */
+  .react-calendar__month-view__days__day--weekend {
+    color: inherit;
+  }
+  
