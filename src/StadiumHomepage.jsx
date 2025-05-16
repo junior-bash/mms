@@ -83,7 +83,7 @@ const StadiumHomepage = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0 flex items-center">
               <div className="w-10 h-10 flex items-center justify-center">
-                <img src="src/assets/logo.jpeg" alt="Stadium Logo" className="h-10 w-auto object-contain" />
+                <img src="images/logo.jpeg" alt="Stadium Logo" className="h-10 w-auto object-contain" />
               </div>
 
                 <span className="ml-2 text-xl font-bold text-gray-800">Moses Mabhida</span>
@@ -259,7 +259,7 @@ const StadiumHomepage = () => {
     <div className="absolute inset-0 bg-gray-900 opacity-40 z-0"></div>
     <div
   className="absolute inset-0 bg-center bg-cover z-0"
-  style={{ backgroundImage: "url('src/assets/Moses-Mabhida-Stadium-4.jpg')" }}
+  style={{ backgroundImage: "url('images/Moses-Mabhida-Stadium-4.jpg')" }}
   ></div>
     <div className="absolute inset-0 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 z-10 text-center">
       <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">Experience The Stadium</h1>
